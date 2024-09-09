@@ -20,7 +20,7 @@ public class ArrayClass {
         // this.arraySize = range * range * range * range;
         setArraySize(getRange() * getRange() * getRange() * getRange());
         //this.arr = new int[arraySize];
-        setArr(new int[arraySize]);
+        setArr(new int[getArraySize()]);
 
         generateArray();
     }
